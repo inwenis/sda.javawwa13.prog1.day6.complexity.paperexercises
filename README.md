@@ -1,3 +1,7 @@
+# Zadanie teoretyczne z złożoności obliczeniowej
+
+Oppowiedzi na poniższe pytania używaj używając notacji `O(n)` (notacja dużego 'O')
+
 1. Jaka jest złożoność obliczeniowa wyszukania konkretnego elementu w tablicy? (np konkretnego pacjenta po PESELu)
 ````
 function GetByPesel(patients, pesel) {
@@ -8,6 +12,10 @@ function GetByPesel(patients, pesel) {
     }
 }
 ````
+
+Odp. `O(n)`
+
+
 2. Jaka jest złożoność obliczeniowa wyszukania konkretnego elementu w tablicy haszowanej?
 3. Jaka jest złożoność obliczeniowa tego algorytmu sortowania:
 ```
