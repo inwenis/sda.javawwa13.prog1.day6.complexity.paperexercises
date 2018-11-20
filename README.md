@@ -15,7 +15,7 @@ function GetByPesel(patients, pesel) {
 
 Odp. `O(n)`
 
-Wyjaśnienie: musimy przejrzeć całą tablicę. Czasem poszukiwany znajdziemy poszukiwany element zanim dojdziemy do końca tablicy, można by uznać że złożoność w takim przypadku wynosi `O(n/2)`. Stałe występujące w notacji duże 'O' pomijamy jednak dlatego jeżeli program wymaga `n/2` operacji jego złożoność określona za pomocą notacji asymptotycznej (aka. notacja duże 'O') wynosi `O(n)`.
+Wyjaśnienie: musimy przejrzeć całą tablicę. Czasem znajdziemy poszukiwany element zanim dojdziemy do końca tablicy, można by uznać że złożoność w takim przypadku wynosi `O(n/2)`. Stałe występujące w notacji duże 'O' pomijamy jednak dlatego jeżeli program wymaga `n/2` operacji jego złożoność określona za pomocą notacji asymptotycznej (aka. notacja duże 'O') wynosi `O(n)`.
 
 
 2. Jaka jest złożoność obliczeniowa wyszukania konkretnego elementu w tablicy haszowanej?
